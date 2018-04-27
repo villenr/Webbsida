@@ -1,0 +1,98 @@
+.bild2 
+{
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    position: absolute;
+    float: left;
+    left: 500px;
+}
+                 
+.bredd 
+{
+margin: auto;
+    width: 700px;
+}
+            
+a
+{
+    color: black;
+    margin-top: 1px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    text-decoration: none;
+}
+         
+.text
+{
+    font-family: Arial;
+    font-size: 12px;
+}
+            
+body
+{
+    background-color: #6A0888;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin:0;
+    margin-left: -200px;
+    margin-top: -20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 7000px;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    margin-right: 175px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(.active) 
+{
+    background-color: #111;
+}
+
+.active 
+{
+    background-color: #4CAF50;
+}
+      
+.p1
+{
+    font-weight:  bold;
+    text-align:  center;
+    font-family: Gill Sans, sans-serif
+}
+            
+h1
+{
+    font-weight:  bold;
+    text-align:  center;
+    font-family: Gill Sans, sans-serif
+}
+
+footer
+{
+    position:fixed  ;
+    bottom:0 ;
+}
+.FTI{
+    width: 100px;
+    height: 50px;
+}
