@@ -2,10 +2,8 @@
 {
     width: 400px;
     height: 400px;
-    top: 200px;
-    position: absolute;
-    float: left;
-    left: 500px;
+    display: block;
+    margin: 70px auto;
 }
                  
 .bredd 
@@ -16,11 +14,9 @@ margin: auto;
             
 a
 {
-    color: black;
-    margin-top: 1px;
+    color: black; 
     font-size: 30px;
     font-weight: bold;
-    margin-left: 100px;
     text-decoration: none;
 }
          
@@ -33,32 +29,30 @@ a
 body
 {
     background-color: #6A0888;
+    margin:0;
 }
 
-ul 
+nav
+{
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul 
 {
     list-style-type: none;
-    margin:0;
-    margin-left: -200px;
-    margin-top: -20px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: 7000px;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: auto;
 }
 
-li 
-{
-    float: left;
-}
+
 
 li a 
 {
-    display: block;
+    
     color: white;
-    margin-right: 175px;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     
 }
@@ -89,8 +83,14 @@ h1
 
 footer
 {
-    position:fixed  ;
+    position:fixed;
+    left: calc(50% - 50px);
+    width: 100px;
     bottom:0 ;
+    font-family: Gill Sans, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
 }
 .FTI{
     width: 100px;
